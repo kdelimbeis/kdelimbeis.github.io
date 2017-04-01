@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style> 
+
+h1{
+	font-style: oblique;
+	font-size: 70px;
+}
+
+h3{
+	font-size: 45px;
+}
+
+html { 
+  background: url(https://cdn.pixabay.com/photo/2016/01/27/04/32/greece-1163692_960_720.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+	  width: 700px;
+    background: url(https://cdn.pixabay.com/photo/2015/10/24/07/27/coffee-1004071__340.jpg);
+    color: blue;
+    padding: 15px;
+}
+.footer {
+    width: 45%;
+    background: url(https://cdn.pixabay.com/photo/2015/10/24/07/27/coffee-1004071__340.jpg);
+    color: blue;
+    padding: 5px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 100%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: orange;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 170px;
+    height: 45px;
+    margin: 10px;
+    border: 3px solid blue;
+    font-size: 20px;
+}
+
+.after-box {
+    border: 3px solid red; 
+}
+
+.displays {
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="header">
+  <h1>Kleo's Baklava Cafe</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Menu</li>
+      <li><a href="baklava_images.html" target="_blank">Image Gallery</a></li>
+      <li><a href="location_hours.html" target="_blank">Store Hours & Location</a></li>
+      <li><a href="baklava_about.html" target="_blank">About Us</a></li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h2>The Cafe</h2>
+    <p>At our Greek Restaurant Cafe' you can enjoy coffee, espresso, bagels, croissants, gyros, salads, paninis, ice cream and lots more!</p>
+    <p>We aim for a casual environment with a taste of the Mediterranean that will keep you coming back again and again!!</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h3>Call: (215) 441-8400</h3>
+</div>
+
+<img src="100.jpg" style="width:707px;height:300px;">
+
+  <div class="displays">
+    <img src="101.jpg" style="width:233px;height:150px;">
+    <img src="102.jpg" style="width:233px;height:150px;">
+    <img src="103.jpg" style="width:233px;height:150px;">
+  </div>
+
+
+<div class="floating-box">Greek Pastries</div>
+<div class="floating-box">Espresso</div>
+<div class="floating-box">Paninis</div>
+<div class="floating-box">Gyros</div>
+<div class="floating-box">Soup</div>
+<div class="floating-box">Salads</div>
+<div class="floating-box">Cakes</div>
+<div class="floating-box">Ice Cream</div>
+
+<div class="after-box">Disclaimer TBD</div>
+
+
+</body>
+</html>
